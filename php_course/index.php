@@ -1,5 +1,0 @@
-<?php 
-
-    ECHO 'it works.'
-
-?>
