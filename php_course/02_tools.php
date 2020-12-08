@@ -9,13 +9,20 @@
 // or PHPStorm
 
 // I am using LAMP stack with VS code; you can find more about 
-// LAMP installation on Ubuntu here;
+// LAMP installation on Ubuntu here:
+// https://github.com/b-husein/LAMP_stack_installation
 
-// after installation (XAMPP) we can confirm that everything
-// is installed by opening browser and typing 'localhost' as URL;
+/*
 
-// in order to start working with MySQL, we need to open PHPMyAdmin
-// localhost/phpmyadmin
+# Start sequence on Ubuntu: 
+
+$ sudo service apache2 start 
+
+$ cd /var/www/html/project_folder
+
+$ code . 
+
+*/
 
 
 
