@@ -49,7 +49,7 @@ echo gettype($salary).'<br>'; */
 
 # Print the whole variable (all the info about it)
 
-var_dump($name);
+// var_dump($name);
 
 # Change the value of the variable 
 
@@ -60,10 +60,27 @@ echo gettype($name);
 
 # Variable checking function
 
-is_string($name); // false
+// var_dump(is_string($name));
 
+# Check if variable is defined; 
 
+// var_dump(isset($address)); // false
 
+// echo $address;
+
+# constants
+
+define('PI', 3.14);
+
+// echo PI; 
+
+// to check if variable is defined or not
+
+defined('PI'); // true
+
+// Using PHP built-in constants; 
+
+echo PHP_INT_MAX;
 
 
 ?>
