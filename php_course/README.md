@@ -1,6 +1,6 @@
-# PHP Course 2020;
+## PHP Course 2020;
 
-## by [TheCodeholic](https://www.youtube.com/watch?v=2eebptXfEvw&list=WL&index=1)
+### by [TheCodeholic](https://www.youtube.com/watch?v=2eebptXfEvw) on Traversy Media; 
 
 The video covers all the basic things about PHP. 
 
