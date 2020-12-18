@@ -89,6 +89,4 @@
 
 // Formatting numbers
 
-    // https://www.php.net/manual/en/function.number-format.php
-
-// https://www.php.net/manual/en/ref.math.php
+    // https://www.php.net/manual/en/ref.math.php
