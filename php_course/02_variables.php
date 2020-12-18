@@ -37,11 +37,11 @@ echo $salary;
 
 // Print types of the variables
 
-echo gettype($name) . '<br>';
-echo gettype($age) . '<br>';
-echo gettype($isMale) . '<br>';
-echo gettype($height) . '<br>';
-echo gettype($salary) . '<br>';
+echo gettype($name) . '<br>'; // string
+echo gettype($age) . '<br>';  // integer
+echo gettype($isMale) . '<br>'; // boolean
+echo gettype($height) . '<br>'; // double
+echo gettype($salary) . '<br>'; // null
 
 // Print the whole variable
 // var_dump prints out all the info we need 
