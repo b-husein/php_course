@@ -45,16 +45,50 @@
 // value of the a is increased by one;
 
 // in the second example; 
-// 
+// if we write echo ++$a; the value of the a
+// is increased by one and then it's printed.
 
 // Decrement operator
 
+    echo $a-- . '<br>';
+    echo --$a . '<br>'; 
+
 // Number checking functions
+// couple of functions to check if 
+// variable is a number; 
+
+    is_float(1.25); //true; 
+    is_double(1.25); //true; 
+    is_int(5); //true
+    is_numeric("4.3"); //true
+    is_numeric("4abc.3"); //false
+
 
 // Conversion
 
+    //how to convert string value to float
+    $strNumber = '12.34';
+    $number = (float)$strNumber;
+    var_dump($number);
+
+    //to convert into integer, just replace
+    // $number = (int)$strNumber;
+
+    //other way is to use floatval
+    $strNumber = '12.34';
+    $number = floatval($strNumber);
+    var_dump($number);
+
+    //or intval
+    $number = intval($strNumber);
+
+
 // Number functions
 
+    //https://www.php.net/manual-lookup.php?pattern=number+functions&scope=quickref
+
 // Formatting numbers
+
+    // https://www.php.net/manual/en/function.number-format.php
 
 // https://www.php.net/manual/en/ref.math.php
