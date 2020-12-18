@@ -69,10 +69,10 @@ isset($address); // false
 // Constants
 // have to use define to define a constant
 
-define('PI', 3.14); 
+define('PI', 3.14); // constant name and constant value;
 echo PI; // syntax to access constants;
 
 // Using PHP built-in constants
 
-echo SORT_ASC.'<br>';
-echo PHP_INT_MAX.'<br>';
+echo SORT_ASC . '<br>';
+echo PHP_INT_MAX .'<br>'; // print max. number
